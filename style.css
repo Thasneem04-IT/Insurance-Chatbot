@@ -1,0 +1,64 @@
+/* style.css */
+
+.stApp {
+  background-color: white;
+}
+
+.chat-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.user-bubble {
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  max-width: 80%;
+  float: right;
+  clear: both;
+}
+
+.assistant-bubble {
+  background-color: #f1f0f0;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  max-width: 80%;
+  float: left;
+  clear: both;
+}
+
+.chat-input {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chat-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Circular logo */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  display: block; /* Ensure it’s treated as a block element */
+  margin: 20px auto; /* Center the logo horizontally */
+}
+
+.logo-container {
+  text-align: center; /* Center align logo and other content */
+  padding: 10px;
+}
