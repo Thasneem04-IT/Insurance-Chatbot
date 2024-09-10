@@ -13,7 +13,11 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-
+openai_key = os.getenv("OPENAI_API_KEY")
+if openai_key:
+    licensing.activate(openai_key)
+else:
+    raise ValueError(" OPENAI_API_KEY not found in environment variables.")
 # Activate ThirdAI licensing
 thirdai_key = os.getenv("THIRDAI_KEY")
 if thirdai_key:
