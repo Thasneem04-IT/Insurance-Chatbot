@@ -88,7 +88,9 @@ def generate_output(reranked_results, queries):
 
 # PDF files and NeuralDB setup
 pdf_files = {
-    "doc1": "indiafirst-simple-benefit-plan-brochure (2).pdf"
+    "doc1": "indiafirst-simple-benefit-plan-brochure (2).pdf",
+    "doc2": "gold-brochure.pdf"
+    #Enter all the required documents
 }
 db = ndb.NeuralDB()
 insertable_docs = []
